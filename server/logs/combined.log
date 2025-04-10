@@ -1,0 +1,14 @@
+[2025-04-09 23:47:40] [ERROR] ❌ Database connection test failed:  {
+  "service": "inventory-api",
+  "error": null
+}
+[2025-04-10 00:13:42] [ERROR] ❌ Database connection test failed: Access denied for user 'root'@'localhost' (using password: YES) {
+  "service": "inventory-api",
+  "error": null
+}
+[2025-04-10 00:40:21] [INFO] ✅ Database connection test successful {
+  "service": "inventory-api"
+}
+[2025-04-10 00:40:21] [INFO] Query result: [{"test":1}] {
+  "service": "inventory-api"
+}

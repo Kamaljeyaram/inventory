@@ -1,0 +1,952 @@
+[2025-04-09 23:44:25] [ERROR] uncaughtException: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+Error: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js:16:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ]
+  },
+  "stack": "Error: Cannot find module './routes/users'\nRequire stack:\n- C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Module._load (node:internal/modules/cjs/loader:986:27)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js:16:20)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)",
+  "exception": true,
+  "date": "Wed Apr 09 2025 23:44:25 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 8872,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ],
+    "memoryUsage": {
+      "rss": 51585024,
+      "heapTotal": 20332544,
+      "heapUsed": 15060000,
+      "external": 2202150,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 1694.578
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1145,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 986,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1233,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js",
+      "function": null,
+      "line": 16,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1358,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1416,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1208,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1024,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "Function.executeUserEntryPoint [as runMain]",
+      "line": 174,
+      "method": "executeUserEntryPoint [as runMain]",
+      "native": false
+    }
+  ],
+  "service": "inventory-api"
+}
+[2025-04-09 23:47:19] [ERROR] uncaughtException: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+Error: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js:16:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ]
+  },
+  "stack": "Error: Cannot find module './routes/users'\nRequire stack:\n- C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Module._load (node:internal/modules/cjs/loader:986:27)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js:16:20)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)",
+  "exception": true,
+  "date": "Wed Apr 09 2025 23:47:19 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 17620,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ],
+    "memoryUsage": {
+      "rss": 49090560,
+      "heapTotal": 20332544,
+      "heapUsed": 15239576,
+      "external": 2202150,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 1867.906
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1145,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 986,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1233,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js",
+      "function": null,
+      "line": 16,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1358,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1416,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1208,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1024,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "Function.executeUserEntryPoint [as runMain]",
+      "line": 174,
+      "method": "executeUserEntryPoint [as runMain]",
+      "native": false
+    }
+  ],
+  "service": "inventory-api"
+}
+[2025-04-09 23:47:19] [ERROR] uncaughtException: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+Error: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js:16:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ]
+  },
+  "stack": "Error: Cannot find module './routes/users'\nRequire stack:\n- C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Module._load (node:internal/modules/cjs/loader:986:27)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js:16:20)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)",
+  "exception": true,
+  "date": "Wed Apr 09 2025 23:47:19 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 5188,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ],
+    "memoryUsage": {
+      "rss": 54472704,
+      "heapTotal": 20070400,
+      "heapUsed": 15007296,
+      "external": 2202150,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 1868.609
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1145,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 986,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1233,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js",
+      "function": null,
+      "line": 16,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1358,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1416,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1208,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1024,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "Function.executeUserEntryPoint [as runMain]",
+      "line": 174,
+      "method": "executeUserEntryPoint [as runMain]",
+      "native": false
+    }
+  ],
+  "service": "inventory-api"
+}
+[2025-04-10 00:42:48] [ERROR] uncaughtException: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+Error: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js:16:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ]
+  },
+  "stack": "Error: Cannot find module './routes/users'\nRequire stack:\n- C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Module._load (node:internal/modules/cjs/loader:986:27)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js:16:20)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)",
+  "exception": true,
+  "date": "Thu Apr 10 2025 00:42:48 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 26588,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ],
+    "memoryUsage": {
+      "rss": 51445760,
+      "heapTotal": 20070400,
+      "heapUsed": 14952184,
+      "external": 2202150,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 5197.39
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1145,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 986,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1233,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js",
+      "function": null,
+      "line": 16,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1358,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1416,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1208,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1024,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "Function.executeUserEntryPoint [as runMain]",
+      "line": 174,
+      "method": "executeUserEntryPoint [as runMain]",
+      "native": false
+    }
+  ],
+  "service": "inventory-api"
+}
+[2025-04-10 00:47:16] [ERROR] uncaughtException: Cannot find module './routes/users'
+Require stack:
+- c:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+Error: Cannot find module './routes/users'
+Require stack:
+- c:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (c:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js:16:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "c:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ]
+  },
+  "stack": "Error: Cannot find module './routes/users'\nRequire stack:\n- c:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Module._load (node:internal/modules/cjs/loader:986:27)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (c:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js:16:20)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)",
+  "exception": true,
+  "date": "Thu Apr 10 2025 00:47:16 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 22960,
+    "uid": null,
+    "gid": null,
+    "cwd": "c:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "c:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ],
+    "memoryUsage": {
+      "rss": 53760000,
+      "heapTotal": 19808256,
+      "heapUsed": 14848536,
+      "external": 2081487,
+      "arrayBuffers": 16663
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 5465.578
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1145,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 986,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1233,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "c:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js",
+      "function": null,
+      "line": 16,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1358,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1416,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1208,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1024,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "Function.executeUserEntryPoint [as runMain]",
+      "line": 174,
+      "method": "executeUserEntryPoint [as runMain]",
+      "native": false
+    }
+  ],
+  "service": "inventory-api"
+}
+[2025-04-10 00:49:53] [ERROR] uncaughtException: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+Error: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js:16:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ]
+  },
+  "stack": "Error: Cannot find module './routes/users'\nRequire stack:\n- C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Module._load (node:internal/modules/cjs/loader:986:27)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js:16:20)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)",
+  "exception": true,
+  "date": "Thu Apr 10 2025 00:49:53 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 40848,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ],
+    "memoryUsage": {
+      "rss": 54337536,
+      "heapTotal": 20332544,
+      "heapUsed": 14992216,
+      "external": 2202150,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 5621.734
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1145,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 986,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1233,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js",
+      "function": null,
+      "line": 16,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1358,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1416,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1208,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1024,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "Function.executeUserEntryPoint [as runMain]",
+      "line": 174,
+      "method": "executeUserEntryPoint [as runMain]",
+      "native": false
+    }
+  ],
+  "service": "inventory-api"
+}
+[2025-04-10 00:49:54] [ERROR] uncaughtException: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+Error: Cannot find module './routes/users'
+Require stack:
+- C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\kamal\Downloads\Inventory Management System\Inventory Management System\server\server.js:16:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ]
+  },
+  "stack": "Error: Cannot find module './routes/users'\nRequire stack:\n- C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Module._load (node:internal/modules/cjs/loader:986:27)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js:16:20)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)",
+  "exception": true,
+  "date": "Thu Apr 10 2025 00:49:54 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 27480,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js"
+    ],
+    "memoryUsage": {
+      "rss": 54607872,
+      "heapTotal": 20070400,
+      "heapUsed": 15051496,
+      "external": 2202150,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 5623.203
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 1145,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 986,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1233,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 179,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "C:\\Users\\kamal\\Downloads\\Inventory Management System\\Inventory Management System\\server\\server.js",
+      "function": null,
+      "line": 16,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1358,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1416,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1208,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 1024,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "Function.executeUserEntryPoint [as runMain]",
+      "line": 174,
+      "method": "executeUserEntryPoint [as runMain]",
+      "native": false
+    }
+  ],
+  "service": "inventory-api"
+}
